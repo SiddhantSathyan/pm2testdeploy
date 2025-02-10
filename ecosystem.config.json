@@ -23,14 +23,14 @@
             "host": "192.168.0.101",
             "ref": "origin/main",
             "repo": "https://github.com/SiddhantSathyan/pm2testdeploy.git",
-            "path": "C:/deploy/decision-module-production",
+            "path": "C:\\Users\\CSE013\\Documents\\ClarapathProjects\\Staging\\Rewrite\\decision",
             "user": "CSE013"
         },
         "staging": {
             "host": "192.168.0.101",
             "ref": "origin/main",
             "repo": "https://github.com/SiddhantSathyan/pm2testdeploy.git",
-            "path": "C:/deploy/decision-module-staging",
+            "path": "C:\\Users\\CSE013\\Documents\\ClarapathProjects\\Staging\\Rewrite\\decision",
             "user": "CSE013"
         }
     }
