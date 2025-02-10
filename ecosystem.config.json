@@ -16,14 +16,19 @@
     ],
     "deploy": {
         "production": {
-            "host": "localhost",
-            "ref": "origin/master",
-            "repo": ""
+            "host": "192.168.0.101",
+            "ref": "origin/main",
+            "repo": "https://github.com/SiddhantSathyan/pm2testdeploy.git",
+            "path": "C:/deploy/decision-module-production",
+            "user": "CSE013"
         },
         "staging": {
-            "host": "localhost",
-            "ref": "origin/master",
-            "repo": ""
+            "host": "192.168.0.101",
+            "ref": "origin/main",
+            "repo": "https://github.com/SiddhantSathyan/pm2testdeploy.git",
+            "path": "C:/deploy/decision-module-staging",
+            "user": "CSE013"
+
         }
     }
 }
