@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
 
 assert(process.env.PORT, "PORT is not defined");
 
-const port = process.env.PORT;
+const port = parseInt(process.env.PORT);
 
 const server = app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);

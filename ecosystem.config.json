@@ -10,8 +10,12 @@
             "env": {
                 "NODE_ENV": "production"
             },
-            "env_production": {},
-            "env_staging": {}
+            "env_production": {
+                "PORT": "3000"
+            },
+            "env_staging": {
+                "PORT": "3100"
+            }
         }
     ],
     "deploy": {
@@ -28,7 +32,6 @@
             "repo": "https://github.com/SiddhantSathyan/pm2testdeploy.git",
             "path": "C:/deploy/decision-module-staging",
             "user": "CSE013"
-
         }
     }
 }
