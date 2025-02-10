@@ -1,0 +1,25 @@
+{
+  "name": "decision-module",
+  "version": "1.0.0",
+  "description": "A module handling RabbitMQ Decisions and exposing them for client applications",
+  "license": "UNLICENSED",
+  "author": "",
+  "type": "commonjs",
+  "main": "./dist/src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610",
+  "dependencies": {
+    "amqplib": "^0.10.5",
+    "express": "^4.21.2",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.6",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.1",
+    "pm2-config": "^0.0.8",
+    "typescript": "^5.7.3"
+  }
+}

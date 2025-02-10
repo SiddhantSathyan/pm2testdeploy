@@ -1,0 +1,29 @@
+{
+    "$schema": "http://json.schemastore.org/pm2-ecosystem",
+    "apps": [
+        {
+            "name": "decision-module",
+            "script": "./dist/src/index.js",
+            "instances": 1,
+            "exec_mode": "fork",
+            "watch": false,
+            "env": {
+                "NODE_ENV": "production"
+            },
+            "env_production": {},
+            "env_staging": {}
+        }
+    ],
+    "deploy": {
+        "production": {
+            "host": "localhost",
+            "ref": "origin/master",
+            "repo": ""
+        },
+        "staging": {
+            "host": "localhost",
+            "ref": "origin/master",
+            "repo": ""
+        }
+    }
+}
